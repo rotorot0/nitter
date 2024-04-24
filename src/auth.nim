@@ -9,6 +9,7 @@ const
   dayInSeconds = 24 * 60 * 60
   apiMaxReqs: Table[Api, int] = {
     Api.search: 50,
+    Api.followers: 50,
     Api.tweetDetail: 150,
     Api.photoRail: 180,
     Api.userTweets: 500,
@@ -20,7 +21,11 @@ const
     Api.list: 500,
     Api.listTweets: 500,
     Api.listMembers: 500,
-    Api.listBySlug: 500
+    Api.listBySlug: 500,
+    Api.favorites: 500,
+    Api.favoriters: 500,
+    Api.following: 500,
+    Api.retweeters: 500
   }.toTable
 
 var
