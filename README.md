@@ -1,8 +1,6 @@
 # Nitter
 
-> [!NOTE]
-> On 24 August 2026, cease and desist letters were sent by X Corp. demanding a permanent takedown of Nitter instances and the project's repository. \
-> **UPDATE:** Following legal advice, the Nitter project will continue. More details will be announced soon.
+This is my own fork, leave me alone, thanks
 
 A free and open source alternative Twitter front-end focused on privacy and
 performance. \
